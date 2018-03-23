@@ -23,7 +23,7 @@ file(GLOB lib_srcs ${boost_root}/libs/system/src/*.cpp)
 
 add_library( boost_system ${lib_srcs})
 
-file(GLOB lib_srcs ${boost_root}/libs/filesystem/v2/src/*.cpp)
+file(GLOB lib_srcs ${boost_root}/libs/filesystem/src/*.cpp)
 
 add_library( boost_filesystem ${lib_srcs})
 
